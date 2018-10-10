@@ -104,13 +104,13 @@ header nav a.active {
 
 /********** SERVICES SECTION ***********/
 
-#servicios .box-container {
+#services .box-container {
 	display: flex;
 	justify-content: center;
 	text-align: center;
 }
 
-#servicios .box {
+#services .box {
 	padding: 10px;
 }
 
@@ -150,7 +150,9 @@ header nav a.active {
 	padding: 10px;
 }
 
-#contacto {
+/********** CONTACT SECTION ***********/
+
+#contact {
 	background-color: #303030;
 	background-image: url('../images/map-image.png');
 	background-position: center;
@@ -158,24 +160,24 @@ header nav a.active {
 	text-align: center;
 }
 
-#contacto h2 {
+#contact h2 {
 	color: white;
 }
 
-#contacto input {
+#contact input {
 	padding: 20px;
 	width: 400px;
 	border: 1px solid #ccc;
 	border-radius: 3px;
 }
 
-#contacto textarea {
+#contact textarea {
 	margin: 20px 0;
 	padding: 20px;
 	width: 400px;
 }
 
-#contacto button {
+#contact button {
 	background-color: #00FF7F;
 	padding: 20px 40px;
 	border-color: #00FF7F;
