@@ -102,7 +102,7 @@ header nav a.active {
 	background-color: #00FF7F;
 }
 
-/********** SERVICES ***********/
+/********** SERVICES SECTION ***********/
 
 #servicios .box-container {
 	display: flex;
@@ -113,6 +113,8 @@ header nav a.active {
 #servicios .box {
 	padding: 10px;
 }
+
+/********** VIDEO SECTION ***********/
 
 #video {
 	background-color: black;
