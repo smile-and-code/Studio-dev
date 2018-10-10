@@ -102,10 +102,15 @@ header nav a.active {
 	background-color: #00FF7F;
 }
 
-#servicios .box {
-	display: inline-block;
+/********** SERVICES ***********/
+
+#servicios .box-container {
+	display: flex;
+	justify-content: center;
 	text-align: center;
-	width: 33%;
+}
+
+#servicios .box {
 	padding: 10px;
 }
 
