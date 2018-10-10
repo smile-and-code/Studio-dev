@@ -6,11 +6,18 @@ body {
 	line-height: 1.6;
 }
 
+/* Large */ 
+
+
+/********** HOME WRAPPER ***********/
+
 .home-wrapper {
 	background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url('../images/background.jpg') no-repeat center top;
 	background-size: cover;
 	color: white;
 }
+
+/* Header */
 
 header {
 	position: fixed;
@@ -19,20 +26,21 @@ header {
 	background-color: rgba(48, 48, 48, 0.5);
 }
 
-header img {
-	width: 200px;
+header .nav-container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 }
 
-header nav {
-	float: right;
-	margin-top: 10px;
+header img {
+	width: 200px;
 }
 
 header nav a {
 	color: white;
 	font-weight: bold;
 	text-decoration: none;
-	margin-left:10px;
+	margin-left: 10px;
 	padding: 10px 15px;
 }
 
@@ -40,6 +48,8 @@ header nav a.active {
 	background: #00FF7F;
 	border-radius: 3px;
 }
+
+/* Home */
 
 #home {
 	text-align: center;
