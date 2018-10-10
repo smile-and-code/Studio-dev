@@ -122,23 +122,30 @@ header nav a.active {
 	padding: 30px 0;
 }
 
-#portafolio {
+/********** PORTFOLIO SECTION ***********/
+
+#portfolio {
 	background-color: whitesmoke;
 }
 
-#portafolio .box {
-	display: inline-block;
+#portfolio .portfolio-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+#portfolio .box {
 	text-align: center;
 	width: 31%;
 	margin: 1%;
 	background-color: white;
 }
 
-#portafolio .box img {
+#portfolio .box img {
 	width: 100%;
 }
 
-#portafolio .box p {
+#portfolio .box p {
 	color: #666;
 	padding: 10px;
 }
