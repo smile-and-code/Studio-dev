@@ -52,6 +52,8 @@ header nav a.active {
 /* Home */
 
 #home {
+	display: flex;
+	flex-direction: column;
 	text-align: center;
 	padding: 200px 0 150px;
 }
@@ -74,13 +76,15 @@ header nav a.active {
 	margin-top: 40px;
 }
 
-#home .social{
-	margin-top: 60px;
+#home .social {
+	display: flex;
+	justify-content: center;
+	margin-top: 35px;
 }
 
 #home .social a {
+	margin-left: 5px;
 	color: white;
-	display: inline-block;
 	border-radius: 50%;
 	background-color: black;
 	font-size: 24px;
