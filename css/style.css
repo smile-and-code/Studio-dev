@@ -81,18 +81,13 @@ header nav a.active {
 }
 
 #home .social a {
-	/* margin-left: 5px; */
 	color: white;
 	border-radius: 50%;
 	background-color: black;
-	/* font-size: 24px; */
 	font-size: 18px;
 	font-weight: bold;
-	/* height: 50px;
-	width: 50px; */
 	height: 40px;
 	width: 40px;
-	/* line-height: 50px; */
 	line-height: 40px;
 	margin-right: 10px;
 	-webkit-transition: all .3s;
