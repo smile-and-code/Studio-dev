@@ -38,4 +38,22 @@
         background: #00FF7F;
         border-radius: 3px;
     }
+
+    /* Home */
+
+    #home {
+        padding: 200px 0 150px;
+    }
+
+    #home h1 {
+        font-size: 68px;
+        margin-bottom: 40px;
+    }
+
+    #home p {
+        font-size: 24px;
+        margin-top: 40px;
+    }
+
+    
 }
