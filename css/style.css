@@ -2,7 +2,8 @@
 
 body {
 	font-family: 'Roboto', sans-serif;
-	font-size: 16px;
+	/* font-size: 16px; */
+	font-size: 14px;
 	line-height: 1.6;
 }
 
@@ -28,20 +29,24 @@ header {
 
 header .nav-container {
 	display: flex;
-	justify-content: space-between;
-	align-items: center;
+	flex-direction: column;
+	text-align: center;
+	/* justify-content: space-between; */
+	/* align-items: center; */
 }
 
 header img {
-	width: 200px;
+	/* width: 200px; */
+	width: 150px;
 }
 
 header nav a {
 	color: white;
 	font-weight: bold;
 	text-decoration: none;
-	margin-left: 10px;
-	padding: 10px 15px;
+	/* margin-left: 10px; */
+	/* padding: 10px 15px; */
+	padding: 8px 10px;
 }
 
 header nav a.active {
@@ -54,12 +59,15 @@ header nav a.active {
 #home {
 	display: flex;
 	flex-direction: column;
+	align-content: space-between;
 	text-align: center;
-	padding: 200px 0 150px;
+	/* padding: 200px 0 150px; */
+	padding: 100px 0 50px;
 }
 
 #home h1 {
-	font-size: 68px;
+	/* font-size: 68px; */
+	font-size: 30px;
 	font-weight: normal;
 	line-height: 1.2;
 	margin-bottom: 40px;
@@ -72,7 +80,8 @@ header nav a.active {
 }
 
 #home p {
-	font-size: 24px;
+	/* font-size: 24px; */
+	font-size: 18px;
 	margin-top: 40px;
 }
 
@@ -83,16 +92,20 @@ header nav a.active {
 }
 
 #home .social a {
-	margin-left: 5px;
+	/* margin-left: 5px; */
 	color: white;
 	border-radius: 50%;
 	background-color: black;
-	font-size: 24px;
+	/* font-size: 24px; */
+	font-size: 18px;
 	font-weight: bold;
-	height: 50px;
-	width: 50px;
-	line-height: 50px;
-	margin-right:10px;
+	/* height: 50px;
+	width: 50px; */
+	height: 40px;
+	width: 40px;
+	/* line-height: 50px; */
+	line-height: 40px;
+	margin-right: 10px;
 	-webkit-transition: all .3s;
 	-moz-transition: all .3s;
 	transition: all .3s;
@@ -106,7 +119,8 @@ header nav a.active {
 
 #services .box-container {
 	display: flex;
-	justify-content: center;
+	flex-direction: column;
+	/* justify-content: center; */
 	text-align: center;
 }
 
@@ -122,6 +136,13 @@ header nav a.active {
 	padding: 30px 0;
 }
 
+#video .video-size {
+	/* width: 640px; 
+	height: 360px; */
+	width: 360px;
+	height: 315px;
+}
+
 /********** PORTFOLIO SECTION ***********/
 
 #portfolio {
@@ -130,13 +151,14 @@ header nav a.active {
 
 #portfolio .portfolio-container {
 	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
+	flex-direction: column;
+	/* flex-wrap: wrap;
+	justify-content: center; */
 }
 
 #portfolio .box {
 	text-align: center;
-	width: 31%;
+	/* width: 31%; */
 	margin: 1%;
 	background-color: white;
 }
@@ -166,7 +188,8 @@ header nav a.active {
 
 #contact input {
 	padding: 20px;
-	width: 400px;
+	/* width: 400px; */
+	width: 320px;
 	border: 1px solid #ccc;
 	border-radius: 3px;
 }
@@ -174,12 +197,14 @@ header nav a.active {
 #contact textarea {
 	margin: 20px 0;
 	padding: 20px;
-	width: 400px;
+	/* width: 400px; */
+	width: 320px;
 }
 
 #contact button {
 	background-color: #00FF7F;
-	padding: 20px 40px;
+	/* padding: 20px 40px; */
+	padding: 15px 30px;
 	border-color: #00FF7F;
 	border-radius: 5px;
 	color: white;
@@ -191,7 +216,8 @@ header nav a.active {
 /********** FOOTER SECTION ***********/
 
 footer {
-	padding: 90px 0;
+	/* padding: 90px 0; */
+	padding: 50px 0;
 	text-align: center;
 	font-size: 18px;
 }
@@ -199,19 +225,23 @@ footer {
 /********** SECTION ***********/
 
 section {
-	padding: 80px 0;
+	/* padding: 80px 0; */
+	padding: 40px 0;
 }
 
 section h2 {
-	font-size: 32px;
+	/* font-size: 32px; */
+	font-size: 25px;
 	text-align: center;
-	margin-bottom: 80px;
+	/* margin-bottom: 80px; */
+	margin-bottom: 40px;
 }
 
 /********** CONTAINER ***********/
 
 .container {
-	width: 992px;
+	/* width: 992px;
 	margin-left: auto;
-	margin-right: auto;
+	margin-right: auto; */
+	padding: 0 20px;
 }
