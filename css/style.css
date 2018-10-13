@@ -5,9 +5,6 @@ body {
 	line-height: 1.6;
 }
 
-/* Large */ 
-
-
 /********** HOME WRAPPER ***********/
 
 .home-wrapper {
@@ -20,7 +17,7 @@ body {
 
 header {
 	position: fixed;
-	padding: 10px 0;
+	padding: 10px 0 0;
 	width: 100%;
 	background-color: rgba(48, 48, 48, 0.5);
 }
@@ -29,27 +26,27 @@ header .nav-container {
 	display: flex;
 	flex-direction: column;
 	text-align: center;
-	/* justify-content: space-between; */
-	/* align-items: center; */
 }
 
 header img {
-	/* width: 200px; */
 	width: 150px;
+}
+
+header nav {
+	display: flex;
+	justify-content: space-around;
+	background-color: #00FF7F;
+	padding: 8px 0;
 }
 
 header nav a {
 	color: white;
 	font-weight: bold;
 	text-decoration: none;
-	/* margin-left: 10px; */
-	/* padding: 10px 15px; */
-	padding: 8px 10px;
 }
 
 header nav a.active {
-	background: #00FF7F;
-	border-radius: 3px;
+	color: black;
 }
 
 /* Home */
@@ -241,5 +238,5 @@ section h2 {
 	/* width: 992px;
 	margin-left: auto;
 	margin-right: auto; */
-	padding: 0 20px;
+	/* padding: 0 20px; */
 }

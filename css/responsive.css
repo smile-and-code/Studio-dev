@@ -6,4 +6,36 @@
     body {
         font-size: 16px;
     }
+
+    /* Header */
+
+    header {
+        padding: 10px 0;
+    }
+
+    header .nav-container {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    header img {
+        width: 200px;
+    }
+
+    header nav {
+        background-color: transparent;
+        padding: 0;
+    }
+
+    header nav a {
+        margin-left: 10px;
+        padding: 7px 15px;
+    }
+
+    header nav a.active {
+        color: white;
+        background: #00FF7F;
+        border-radius: 3px;
+    }
 }
