@@ -50,11 +50,9 @@ header nav a {
 }
 
 #home h1 {
-	/* font-size: 34px;
+	font-size: 34px;
 	font-weight: normal;
-	line-height: 1.2; */
-
-	display: none;
+	line-height: 1.2;
 }
 
 #home .divider {
