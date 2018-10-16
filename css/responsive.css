@@ -38,6 +38,23 @@
     header img {
         width: 180px;
     }
+
+    /********** PORTFOLIO SECTION ***********/
+
+    #portfolio .box {
+        width: 48%;
+    }
+}
+
+@media screen and (min-width: 481px) {
+    /********** PORTFOLIO SECTION ***********/
+
+    #portfolio .portfolio-container {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
 }
 
 @media screen and (min-width: 682px) {
@@ -116,12 +133,6 @@
     }
 
     /********** PORTFOLIO SECTION ***********/
-
-    #portfolio .portfolio-container {
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
 
     #portfolio .box {
         width: 31%;
