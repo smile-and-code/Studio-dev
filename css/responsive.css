@@ -1,13 +1,15 @@
 /* Small only */
+
 @media (max-width: 480px) {
+    /* Header */
+    
+}
+
+@media (max-width: 682px) {
     /* Header */
 
     header {
         background-color: #00FF7F;
-    }
-
-    header .nav-container {
-        padding: 0;
     }
 
     header img {
@@ -17,12 +19,19 @@
         top: 100px;
         left: 0;
         right: 0;
-        width: 150px;
     }
 
     header nav {
         padding: 8px 0;
-    }    
+    }
+
+    header nav a.active {
+        color: black;
+    }
+}
+
+@media screen and (min-width: 480px) {
+      
 }
 
 @media screen and (min-width: 682px) {
@@ -49,20 +58,17 @@
         width: 200px;
     }
 
-    header nav {
-        padding: 0;
-    }
-
     header nav a {
-        margin-left: 10px;
         padding: 7px 15px;
+        margin-left: 10px;
     }
 
     header nav a.active {
         color: white;
         background: #00FF7F;
         border-radius: 3px;
-    }
+    }  
+
 
     /* Home */
 
