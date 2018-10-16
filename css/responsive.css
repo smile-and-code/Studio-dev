@@ -114,6 +114,38 @@
         width: 640px; 
         height: 360px;
     }
+
+    /********** PORTFOLIO SECTION ***********/
+
+    #portfolio .portfolio-container {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    #portfolio .box {
+        width: 31%;
+    }
+
+    /********** CONTACT SECTION ***********/
+
+    #contact input {
+        width: 400px;
+    }
+
+    #contact textarea {
+        width: 400px;
+    }
+
+    #contact button {
+        padding: 20px 40px;
+    }
+
+    /********** FOOTER SECTION ***********/
+
+    footer {
+        padding: 90px 0;
+    }
 }
 
 @media screen and (min-width: 1024px) {
