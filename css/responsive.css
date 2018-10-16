@@ -5,6 +5,14 @@
     
 }
 
+@media (min-width: 481px) and (max-width: 681px) {
+    /* Header */
+
+    header img {
+        width: 180px;
+    }
+}
+
 @media (max-width: 682px) {
     /* Header */
 
@@ -34,10 +42,6 @@
     #home h1 {
        display: none;
     }
-}
-
-@media screen and (min-width: 480px) {
-      
 }
 
 @media screen and (min-width: 682px) {
