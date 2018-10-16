@@ -17,26 +17,12 @@ body {
 /* Header */
 
 header {
-	position: fixed;
-	padding: 10px 0 0;
 	width: 100%;
-	background-color: rgba(48, 48, 48, 0.5);
-}
-
-header .nav-container {
-	display: flex;
-	flex-direction: column;
-}
-
-header img {
-	width: 150px;
 }
 
 header nav {
 	display: flex;
 	justify-content: space-around;
-	background-color: #00FF7F;
-	padding: 8px 0;
 }
 
 header nav a {
@@ -55,13 +41,15 @@ header nav a.active {
 	display: flex;
 	flex-direction: column;
 	align-content: space-around;
-	padding: 140px 0 50px;
+	padding: 140px 20px 50px;
 }
 
 #home h1 {
-	font-size: 34px;
+	/* font-size: 34px;
 	font-weight: normal;
-	line-height: 1.2;
+	line-height: 1.2; */
+
+	display: none;
 }
 
 #home .divider {
@@ -104,7 +92,6 @@ header nav a.active {
 #services .box-container {
 	display: flex;
 	flex-direction: column;
-	/* justify-content: center; */
 	text-align: center;
 }
 
@@ -224,8 +211,5 @@ section h2 {
 /********** CONTAINER ***********/
 
 .container {
-	/* width: 992px;
-	margin-left: auto;
-	margin-right: auto; */
-	/* padding: 0 20px; */
+	padding: 0 20px;
 }

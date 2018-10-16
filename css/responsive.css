@@ -1,5 +1,28 @@
+/* Small only */
 @media (max-width: 480px) {
-    
+    /* Header */
+
+    header {
+        background-color: #00FF7F;
+    }
+
+    header .nav-container {
+        padding: 0;
+    }
+
+    header img {
+        position: absolute;
+        margin-left: auto;
+        margin-right: auto;
+        top: 100px;
+        left: 0;
+        right: 0;
+        width: 150px;
+    }
+
+    header nav {
+        padding: 8px 0;
+    }    
 }
 
 @media screen and (min-width: 682px) {
@@ -10,21 +33,23 @@
     /* Header */
 
     header {
+        position: fixed;
         padding: 10px 0;
+	    background-color: rgba(48, 48, 48, 0.5);
     }
 
     header .nav-container {
-        flex-direction: row;
+        display: flex;
         justify-content: space-between;
         align-items: center;
     }
 
     header img {
+        position: static;
         width: 200px;
     }
 
     header nav {
-        background-color: transparent;
         padding: 0;
     }
 
@@ -46,6 +71,7 @@
     }
 
     #home h1 {
+        display: inline;
         font-size: 68px;
         margin-bottom: 40px;
     }
@@ -61,5 +87,21 @@
         height: 50px;
         width: 50px;
         line-height: 50px;
-    }    
+    } 
+    
+    /********** SERVICES SECTION ***********/
+
+    #services .box-container {
+        flex-direction: row;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    /********** CONTAINER ***********/
+
+    .container {
+        width: 992px;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
