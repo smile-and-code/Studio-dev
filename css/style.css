@@ -18,8 +18,13 @@ body {
 /* Header */
 
 header {
-	background-color: #00FF7F;
+	position: fixed;
+	background-color: rgba(48, 48, 48, 0.5);
 	width: 100%;
+}
+
+header img {
+	width: 150px;
 }
 
 header .nav-container {
@@ -35,6 +40,10 @@ header nav a {
 	color: white;
 	font-weight: bold;
 	text-decoration: none;
+}
+
+header nav a.active {
+	color: #00FF7F;
 }
 
 
