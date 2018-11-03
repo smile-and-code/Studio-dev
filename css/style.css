@@ -3,7 +3,7 @@
 body {
 	font-family: 'Roboto', sans-serif;
 	line-height: 1.6;
-	font-size: 16px;
+	font-size: 14px;
 }
 
 /********** HOME WRAPPER ***********/
@@ -57,7 +57,7 @@ header nav a.active {
 	display: flex;
 	flex-direction: column;
 	align-content: space-around;
-	padding: 110px 20px 50px;
+	padding: 100px 20px 50px;
 }
 
 #home .divider {
