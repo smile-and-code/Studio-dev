@@ -21,10 +21,11 @@ header {
 	position: fixed;
 	background-color: rgba(48, 48, 48, 0.5);
 	width: 100%;
+	padding: 10px 0;
 }
 
 header img {
-	width: 150px;
+	width: 140px;
 }
 
 header .nav-container {
@@ -40,10 +41,13 @@ header nav a {
 	color: white;
 	font-weight: bold;
 	text-decoration: none;
+	padding: 3px 7px;
 }
 
 header nav a.active {
-	color: #00FF7F;
+	color: white;
+    background: #00FF7F;
+    border-radius: 3px;
 }
 
 
@@ -53,7 +57,7 @@ header nav a.active {
 	display: flex;
 	flex-direction: column;
 	align-content: space-around;
-	padding: 140px 20px 50px;
+	padding: 110px 20px 50px;
 }
 
 #home .divider {
